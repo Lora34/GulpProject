@@ -348,7 +348,9 @@ template {
     display: none;
 }
 
+body {
 
+}
 .section1{
     height: 100vh;
     background: url('../image/layer1/fon1.png') no-repeat center;
@@ -356,6 +358,7 @@ template {
     color: #0d319c;
     background-size: cover;
     padding-top: 287px;
+    overflow: hidden;
 
 
 }
@@ -537,15 +540,15 @@ template {
     left: 1753px;
 }
 /******/
-.section31 {
-    height: 100vh;
+.blueSection {
     background: url('../image/layer3/fon.png') no-repeat center;
+    height: 100vh;
     color: #ffffff;
     background-size: cover;
     position: relative;
     padding-top: 300px;
 }
-.section31_title {
+.blueSection_title {
     font-family: "Gotham Pro", serif;
     font-size: 100px;
     text-align: left;
@@ -601,7 +604,7 @@ template {
     left: 32px;
 }
 
-.graph_items_title{
+.graph_items_title {
     font-family: Lato, serif;
     font-size: 53px;
     border: #ffffff solid 1px ;
@@ -649,6 +652,7 @@ template {
     left: 378px;
     top: 50px;
  }
+
 .sliderB_title {
     width: 1274px;
     display: flex;
@@ -657,4 +661,76 @@ template {
 
     font-family: "Gotham Pro", serif;
     font-size: 53px;
+}
+
+.section32 {
+    position: relative;
+    overflow: hidden;
+}
+.section32_title {
+    margin-bottom: 0;
+}
+.section32_items {
+    position: relative;
+}
+
+.section32_item1 {
+    position: absolute;
+    left: 91px;
+    top: 191px;
+}
+.section32_item2 {
+    position: absolute;
+    left: 1247px;
+    top: -100px;
+}
+.section32_item3 {
+    position: absolute;
+    left: 1797px;
+    top: 991px;
+}
+.section32_graph {
+    margin: 0 auto;
+    padding-left: 317px;
+    padding-right: 216px;
+    padding-top: 151px;
+}
+
+.graph_flow{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 194px;
+    justify-content: space-around;
+}
+.section32_graph_item {
+    position: relative;
+}
+.section32_ellip_number {
+    position: absolute;
+    font-family: Lato Semibold, serif;
+    font-size: 96px;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*top: -85px;*/
+    /*left: 30px;*/
+}
+.section32_graph_decs {
+    /*position: absolute;*/
+    font-family: Lato Medium, serif;
+    font-size: 60px;
+    max-width: 250px;
+    /*bottom: 148px;*/
+    /*left: -12px;*/
+}
+
+.graph_graph_title {
+    font-family: Lato, serif;
+    font-size: 53px;
+    border: #ffffff solid 1px ;
+    max-width: 495px;
+    /*margin-left: 160px;*/
+    /*margin-right: 160px;*/
+    /*padding-left: 115px;*/
+    /*padding-right: 115px;*/
 }
